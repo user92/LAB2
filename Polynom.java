@@ -1,4 +1,3 @@
-
 public class Polynom {
   protected double[] coefficients;
 	private int deg;
@@ -7,11 +6,12 @@ public class Polynom {
 	private int lastError;
 	
 	public Polynom(double a, int deg) {
-		//for (int i = 0; i < deg ; i++) {
+		for (int i = 0; i < deg ; i++) {
 			coefficients = new double[deg];
 			coefficients[deg] = a;
 	     
 		deg = degree();
+	}
 	}
 	
 	public Polynom(Polynom a) {          // copy
