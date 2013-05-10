@@ -1,0 +1,4 @@
+LAB2
+====
+
+Polynom
