@@ -20,7 +20,7 @@ public class SecondPower extends Polynom  {
 			}
 		catch Exception() { 
 		}
-			
+		}		
 		
 	}
 	
