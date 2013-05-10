@@ -2,13 +2,14 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class secondPower extends Polynom  {
-  File myFile = new File("myFile");
+public class SecondPower extends Polynom  {
+  
 	
 	
-	public secondPower (int index, String fileName) throws /*IOException*/ getLastError() {
-		if (/* файла нет */) throw new getLastError(1); 
-		if (index > file.length(fileName)) throw getLastError(2);
+	public SecondPower (int index, String fileName)  {
+		File myFile = new File("myFile");
+		if (!myFile) throw new Exception; 
+		if (index > file.length(fileName)) throw new Exception;
 		try {
 			
 			
